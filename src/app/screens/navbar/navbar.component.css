@@ -1,0 +1,31 @@
+
+div{
+    background-color: #14213d;
+    display:flex;
+    justify-content:space-between;
+    font-family: 'Kolker Brush', cursive;
+}
+h2{
+    padding-left: 20px;
+    padding: none;
+    margin: none;
+    font-size: 45px;
+    color: #fca311;
+}
+button{
+    color: #e5e5e5;
+    padding-right: 20px;
+    font-family: 'Fjalla One', cursive;
+    font-weight: 600;
+    margin: auto;
+    background: none;
+    border: none;
+    font-size: 120%;
+}
+button:hover{
+    color:#fca311
+}
+span{
+    margin: 0;
+    padding: 0;
+}

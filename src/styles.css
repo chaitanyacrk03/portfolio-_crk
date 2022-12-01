@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Kolker Brush";
+    src: local("Kolker Brush"), url(./assets/fonts/KolkerBrush-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Fjalla One";
+    src: local("Fjalla One"), url(./assets/fonts/FjallaOne-Regular.ttf) format("truetype");
+}
+body{
+    margin: 0;
+    padding: none ;
+}
+button:hover{
+    cursor: pointer;
+}
