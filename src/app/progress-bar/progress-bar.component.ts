@@ -1,5 +1,4 @@
 import { Component, OnInit, Input, HostListener } from '@angular/core';
-import { EventEmitter } from 'stream';
 @Component({
   selector: 'app-progress-bar',
   templateUrl: './progress-bar.component.html',
@@ -21,7 +20,7 @@ export class ProgressBarComponent implements OnInit {
     }
     if (this.incre===0){
       let interval=setInterval(()=>{
-        if(window.scrollY>=850){
+        if(window.scrollY>=750){
           this.increment()
           clearInterval(interval)
         }
@@ -36,23 +35,26 @@ export class ProgressBarComponent implements OnInit {
     }
   }
   hover(pbar,width){
-    console.log(width)
     if (pbar.innerText!==`${0}%`){
       return
     }
     this.incre=0
     for(let i=0;i<=width;i++){
       pbar.style.width=`${i}%`
+      if(this.incre<width){
+          this.incre+=1  
+      }
     }
     this.interval=null;
+    let inc=0
     this.interval=setInterval(()=>{
-        if(this.incre<=width){
-          this.incre+=1
-          pbar.innerText=`${this.incre}%`    
+        if(inc<width){
+          inc+=1
+          pbar.innerText=`${inc}%`    
         }
         else{
           clearInterval(this.interval);
         }  
-      },300);
+      },100);
   }
 }

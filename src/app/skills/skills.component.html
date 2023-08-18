@@ -3,37 +3,12 @@
         SKILLS
     </h1>
     <div class="flexer">
-            <div class="flex2">
-                <img src="../../assets/images/python.png" alt="py">
-                <app-progress-bar [length]='[90,70,86,75,31,2,48,100]'></app-progress-bar>
+        <div *ngFor="let len of length">
+            <div class ="data">
+                <img src="{{len.img}}" alt="py">
+                <app-progress-bar [length]='[90,90,80,60,70]'></app-progress-bar>
             </div>
-            <div class="flex2">
-                <img src="../../assets/images/angular.png" alt="angular">
-                <app-progress-bar [length]='[90,70,86,75,31,2,48,100]'></app-progress-bar>
-            </div>
-            <div class="flex2">
-                <img src="../../assets/images/pngwing.com.png" alt="c#">
-                <app-progress-bar [length]='[90,70,86,75,31,2,48,100]'></app-progress-bar>
-            </div>
-            <div class="flex2">
-                <img src="../../assets/images/pngwing.com (1).png" alt="asp.net">
-                <app-progress-bar  [length]='[90,70,86,75,31,2,48,100]'></app-progress-bar>
-            </div>
-            <div class="flex2">
-                <img src="../../assets/images/python.png" alt="py">
-                <app-progress-bar [length]='[90,70,86,75,31,2,48,100]'></app-progress-bar>
-            </div>
-            <div class="flex2">
-                <img src="../../assets/images/angular.png" alt="angular">
-                <app-progress-bar [length]='[90,70,86,75,31,24,48,100]'></app-progress-bar>
-            </div>
-            <div class="flex2">
-                <img src="../../assets/images/pngwing.com.png" alt="c#">
-                <app-progress-bar [length]='[90,70,86,75,31,2,48,100]'></app-progress-bar>
-            </div>
-            <div class="flex2">
-                <img src="../../assets/images/pngwing.com (1).png" alt="asp.net">
-                <app-progress-bar  [length]='[90,70,86,75,31,2,48,100]'></app-progress-bar>
-            </div>
+
+        </div>
     </div>
 </div>
