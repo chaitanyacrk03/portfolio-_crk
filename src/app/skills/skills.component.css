@@ -42,3 +42,7 @@ h4{
     color: black;
     font-weight: 900;
 }
+.data{
+    display: flex;
+    margin:10px;
+}

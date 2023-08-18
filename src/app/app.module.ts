@@ -9,6 +9,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { JumpingDirective } from './jumping.directive';
 import { SkillsComponent } from './skills/skills.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
+import { BottomnavComponent } from './progress-bar/bottomNav/bottomnav/bottomnav.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { CardComponent } from './projects/card/card.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +19,10 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
     HomeComponent,
     JumpingDirective,
     SkillsComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    BottomnavComponent,
+    ProjectsComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
