@@ -116,7 +116,6 @@ hr{
     position:relative;
     width: 200px;
     height:200px;
-    /* background: #219ebc; */
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -136,7 +135,7 @@ hr{
     width: 100%;
     height: 100%;
     display: flex;
-    color:#219ebc;
+    color:#bde0fe;
     animation: rotateText 10s linear infinite;
 }
 @keyframes rotateText{
@@ -164,4 +163,28 @@ hr{
     .span#{$i}{
         transform: rotate(($i)*8.5deg);
     }
+}
+.data
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #a2d2ff 0%,
+    #219ebc 100%
+
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
