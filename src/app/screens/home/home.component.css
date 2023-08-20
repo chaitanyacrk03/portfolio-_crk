@@ -15,6 +15,7 @@ h1{
 }
 div{
     color:white;
+    position: relative;
 }
 button{
     font-size: 120%;
@@ -37,10 +38,11 @@ img{
     background: linear-gradient(to top, #0d1b2a 0%,#22577a  100%);
     margin: 0;
     padding: 0;
+    z-index: -1;
 }
 .info{
     padding-top: 5%;
-    margin-left: 25%;
+    margin-left: 30%;
 }
 .responsibility{
     width: 50%;
@@ -48,6 +50,7 @@ img{
     margin: 0;
     padding-bottom: 5%;
     margin-left: 25%;
+    z-index: 0;
 }
 b{
     color: #fca311;
@@ -55,6 +58,7 @@ b{
 }
 li{
     padding: 1.5%;
+    color: antiquewhite;
 }
 .contacts{
     color: #fca311;
@@ -100,4 +104,11 @@ li{
 hr{
     margin: 0;
     padding:0;
+}
+.background{
+    margin-left:4%;
+    color:#219ebc;
+    font-size: 170px;
+    position:absolute;
+    z-index: -1;
 }
