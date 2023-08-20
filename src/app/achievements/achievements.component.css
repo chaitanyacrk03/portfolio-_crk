@@ -6,3 +6,6 @@ h1{
     margin-top: 0;
     color: #fca311;
 }
+div{
+    background:linear-gradient(to top,#22577a 0%, #0d1b2a 100%);
+}

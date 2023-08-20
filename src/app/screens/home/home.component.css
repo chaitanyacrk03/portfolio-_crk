@@ -8,18 +8,17 @@ h1{
 }
 .Home{
     color:white;
-    background-color: #0d1b2a;
+    background: linear-gradient(to top, #22577a 0%,#0d1b2a  100%);
     margin: 0;
     padding: 0;
     padding-left:10px;
 }
 div{
-    background-color: #0d1b2a;
     color:white;
 }
 button{
     font-size: 120%;
-    background-color: #fca311;
+    background: #fca311;
     color: black;
     border-radius: 20px;
     padding: 5px;
@@ -28,14 +27,14 @@ img{
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    background-color: #fca311;
+    background: #fca311;
     margin-top: 10px;
     margin-left: 10px
 }
 .Details{
     margin-left: 45vh;
     font-size: 85%;
-    background-color: #14213d;
+    background: linear-gradient(to top, #0d1b2a 0%,#22577a  100%);
     margin: 0;
     padding: 0;
 }
@@ -59,7 +58,7 @@ li{
 }
 .contacts{
     color: #fca311;
-    background-color: #14213d;
+    background: linear-gradient(to top,#22577a  0%, #0d1b2a 100%);
 }
 .me{
     border-radius: 50%;
@@ -96,5 +95,9 @@ li{
 }
 .dw:hover{
     color: #fca311;
-    background-color: #0d1b2a;
+    background: linear-gradient(to top,#0d1b2a  0%, #22577a 100%);
+}
+hr{
+    margin: 0;
+    padding:0;
 }

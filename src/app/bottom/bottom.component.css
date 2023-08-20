@@ -8,7 +8,9 @@ h1{
 }
 div{
     margin:0;
-    background-color:#14213d ;
+    background:linear-gradient(to top,#0d1b2a  0%, #22577a 100%) ;
+    margin-bottom: 10px;
+    padding-bottom:10px;
 }
 a{
     color: rgb(88, 85, 133);
@@ -16,4 +18,18 @@ a{
 }
 span{
     margin-left: 2em;
+    padding-left: 10px;
+}
+section{
+    margin-left: 10%;
+    width: 30%;
+    padding-left: 1.5%;
+    padding-right: 0.5%;
+}
+h3{
+    padding-right: 2px;
+    
+}
+button{
+    margin-left: 40%;
 }
