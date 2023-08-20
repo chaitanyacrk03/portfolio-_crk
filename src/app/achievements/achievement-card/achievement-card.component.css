@@ -19,7 +19,7 @@
     align-items : center;
     justify-content : center;
     flex-warp : warp;
-    padding : 30px;  
+ 
   }
   
   .container .card {
@@ -37,7 +37,7 @@
     border-radius : 15px;
   }
   .container .card:hover {
-    height : 320px;    
+    height : 320px;
   }
   
   

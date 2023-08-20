@@ -7,9 +7,13 @@
     src: local("Fjalla One"), url(./assets/fonts/FjallaOne-Regular.ttf) format("truetype");
 }
 body{
-    margin: 0;
-    padding: none ;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 button:hover{
     cursor: pointer;
+    
 }
