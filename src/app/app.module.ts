@@ -12,6 +12,9 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { BottomnavComponent } from './progress-bar/bottomNav/bottomnav/bottomnav.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { CardComponent } from './projects/card/card.component';
+import { BottomComponent } from './bottom/bottom.component';
+import { AchievementsComponent } from './achievements/achievements.component';
+import { AchievementCardComponent } from './achievements/achievement-card/achievement-card.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,10 @@ import { CardComponent } from './projects/card/card.component';
     ProgressBarComponent,
     BottomnavComponent,
     ProjectsComponent,
-    CardComponent
+    CardComponent,
+    BottomComponent,
+    AchievementsComponent,
+    AchievementCardComponent
   ],
   imports: [
     BrowserModule,
