@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./bottom.component.css']
 })
 export class BottomComponent {
+  toHome(){
+    document.getElementById("Home").scrollIntoView({behavior:"smooth"})
+  }
 
 }

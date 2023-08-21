@@ -15,6 +15,7 @@ import { CardComponent } from './projects/card/card.component';
 import { BottomComponent } from './bottom/bottom.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { AchievementCardComponent } from './achievements/achievement-card/achievement-card.component';
+import { ContactMeComponent } from './forms/contact-me/contact-me.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,8 @@ import { AchievementCardComponent } from './achievements/achievement-card/achiev
     CardComponent,
     BottomComponent,
     AchievementsComponent,
-    AchievementCardComponent
+    AchievementCardComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,
