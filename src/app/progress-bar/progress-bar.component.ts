@@ -55,6 +55,6 @@ export class ProgressBarComponent implements OnInit {
         else{
           clearInterval(this.interval);
         }  
-      },100);
+      },80);
   }
 }
