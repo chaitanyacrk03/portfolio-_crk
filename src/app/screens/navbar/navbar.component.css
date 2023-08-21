@@ -36,3 +36,10 @@ a{
 a:hover{
     color:#fca311
 }
+.color{
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 10;
+  width: 100%;
+}
