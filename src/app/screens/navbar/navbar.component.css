@@ -50,10 +50,13 @@ a:hover{
         display: flex;
     justify-content: flex-start;
     overflow-x: hidden;
+    position: sticky;
+    top: 0;
     }
     button{
         padding-right: 1px;
         font-size: 80%;
         padding-left: 1.4em;
     }
+
 }

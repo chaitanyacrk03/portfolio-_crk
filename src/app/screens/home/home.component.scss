@@ -197,7 +197,8 @@ h1{
     font-size: 220%;
 }
 .background{
-    font-size: 110px;
+    font-size: 8em;
+    padding-left: 3%;
 }
 .info{
     font-size: 440%;
@@ -205,4 +206,17 @@ h1{
 .responsibility{
     margin-left: 17%;
 }
+br{
+    display: none;
+}
+}
+@media screen and (max-width: 470px){
+    .info{
+        font-size: 330%;
+    }
+    .background{
+        font-size: 6em;
+        padding-left: 3%;
+    }
+
 }

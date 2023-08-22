@@ -22,3 +22,9 @@
     }
     
 }
+@media screen and (max-width: 470px){
+    .container {
+        width: 500%;
+        height: 10%;
+    }
+}
