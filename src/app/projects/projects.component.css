@@ -21,3 +21,9 @@ h1{
     }
     
 }
+@media screen and (max-width:470px){
+    .info{
+        margin-left: 25%;
+    }
+    
+}

@@ -44,6 +44,10 @@ a:hover{
   width: 100%;
 }
 @media screen and (max-width: 650px){
+    div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .color{
         background-color: #e5e5e5;
         width: 100%;
@@ -61,6 +65,7 @@ a:hover{
     div{
         flex-wrap: wrap;
         justify-content: center;
+        width: 100%;
     }
 
 }
