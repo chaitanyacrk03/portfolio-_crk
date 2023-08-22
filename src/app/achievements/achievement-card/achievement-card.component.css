@@ -162,3 +162,15 @@
   .btn3::after{
     background-color: red;
   }
+  @media screen and (max-width:650px){
+    h1{
+        font-size: 320%;
+        padding-left: 2%;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

@@ -192,3 +192,17 @@ a{
     background-position: 200% center;
   }
 }
+@media screen and (max-width: 650px){
+h1{
+    font-size: 220%;
+}
+.background{
+    font-size: 110px;
+}
+.info{
+    font-size: 440%;
+}
+.responsibility{
+    margin-left: 17%;
+}
+}
