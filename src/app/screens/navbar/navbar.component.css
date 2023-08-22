@@ -1,6 +1,6 @@
 
 div{
-    background-color: #14213d;
+    background: linear-gradient(to top,#0d1b2a  0%, #22577a 100%);
     display:flex;
     justify-content:space-between;
     font-family: 'Kolker Brush', cursive;
@@ -28,4 +28,18 @@ button:hover{
 span{
     margin: 0;
     padding: 0;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color:#fca311
+}
+.color{
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 10;
+  width: 100%;
 }

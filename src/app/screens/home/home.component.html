@@ -1,5 +1,7 @@
 
-<div class="Page">
+<hr>
+<div id="Home" class="Page">
+    <br><br><br><br><br>
     <div class="Home"><br><br><br><br>
         <div class="mains">
             <div>
@@ -16,21 +18,30 @@
                         WITH 2 YEARS OF EXPERIENCE
                     </h3>
                     <button class="dw">
-                        Download Resume
+                        <a href="../../../assets/images/chaitanya_resume.pdf" download>Download Resume</a>
+                        
                     </button> 
             </div>
-            <div class="jump"  style="width: 20%;height: 20%">
-                <img class="me" src="../../../assets/images/Me.jpg" alt="">
+            <div class="circle">
+                <div class="logo"></div>
+                <div class="text" >
+                    <span *ngFor="let datas of dataFrag; index as i" class="span{{i}}">
+                        <p>{{datas}}</p>
+                    </span>
+                </div>
+
             </div>
-            <div></div>
         </div>
         
         <a href="https://www.linkedin.com/in/chaitanya-ram-krishna-a6b654172/" target="_blank">
         <img    class="linked" src="../../../assets/images/linkedin.png" alt="linkedin"></a>
-     
     </div>
+    <hr>
+    
     <div class ="Details">
-
+        <h1 class="background data">
+            FULLSTACK DEVELOPER
+        </h1>
         <h1 class="info">
             FULLSTACK DEVELOPER AT INFOSYS
         </h1>
@@ -44,13 +55,17 @@
             <li>
                 Developed 100+ UI(Angular) and Api(Spring Boot) code based on client requirements.
             </li>
-            <li>
+            <li id="Skills">
                 Reduced the runtime of configuration process from 2 hrs to under 40 minutes by optimizing the Api calls and improving the Time Complexity.
             </li>
         </ul>
     </div>
+    <hr>
     <app-skills></app-skills>
+    <hr>
     <app-projects></app-projects>
+    <hr>
     <app-achievements></app-achievements>
+    <hr>
     <app-bottom></app-bottom>
 </div>

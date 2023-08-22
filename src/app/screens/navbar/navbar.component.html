@@ -1,5 +1,5 @@
-<span class="color">
-    <div class=>
+<span  class="color" >
+    <div >
         <div>
             <h2>
                 Portfolio
@@ -7,10 +7,11 @@
             
         </div>
         <div>
-            <button> Home</button>
-            <button> Certificates</button>
-            <button (click)="downloadCV()"> Download Resume</button >
-            <button> Contact Me</button>
+            <button (click)="toHome()" routerLinkActive="active" routerLink="/"> Home</button>
+            <button (click)="toSkills()" routerLinkActive="active">Skills</button>
+            <button (click)="toAchievements()" routerLinkActive="active"> Achievements</button>
+            <button ><a href="../../../assets/images/chaitanya_resume.pdf" download>Download Resume</a></button >
+            <button (click)="toContact()" routerLinkActive="active"> Contact Me</button>
         </div>
     </div>
 </span>
